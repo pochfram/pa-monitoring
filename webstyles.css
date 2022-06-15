@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,300&display=swap');
+
+* {
+    box-sizing: border-box;
+ }
+
+header {
+    display: inline;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #4c4c5f;
+    margin: 0;
+    padding: 0;
+ }
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+ 
+h2 {
+    color: 	#c2c2ce
+}
+  
+h3 {
+    color: 	#c2c2ce
+}
+ 
+footer {
+    padding: 20px;
+    color: #c2c2ce;
+    background-color: #171730;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #c2c2ce;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #171730;
+}
+
+nav a:hover {
+    font-weight: bold;
+    color:#39394e;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+    text-align: center;
+}
+
+
+
+/* aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+} */
+
+/* aside section td {
+    text-align: left;
+} */
+
+aside a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+aside a:hover {
+    font-weight: bold;
+    color:white;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}  
+
+.profile header {
+    text-align: center;
+}
+
+ 
+.featured-image {
+    width: 70%;
+    max-height: 500px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 #171730;
+    background-color: #171730;
+    opacity: 100%;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+}
+
+main section td {
+     text-align: center;
+}
+
+
+.jumbotron {
+    font-size: 20px;
+    padding: 35px;
+    background-color: #171730;
+    text-align: center;
+    color: #c2c2ce;
+}
+
+/* #content {
+    float: left;
+    width: 75%;
+} */
+
+.rounded {
+    border-radius: 10px;
+}
+
+table {
+    object-position: top;
+    text-align: center;
+}
+
+.profil td {
+    text-align: left;
+}
+
+.profil th {
+    text-align: right;
+}
+
+.logo {
+    width: auto ;
+    max-width: 100% ;
+    height: auto ;
+}
+
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+ }
